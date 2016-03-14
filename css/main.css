@@ -1,5 +1,6 @@
 html {
 	box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,4 +10,25 @@ html {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.card {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 0 6px 6px 6px;
+}
+
+.banner-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.banner-body {
+  position: absolute;
+  bottom: 10em;
+  left: 5em;
 }
